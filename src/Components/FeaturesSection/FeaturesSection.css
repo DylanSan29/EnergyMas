@@ -1,0 +1,178 @@
+/* Features Section Styles */
+.features {
+  padding: 4rem 5rem;
+  background-color: #f9fafb;
+  text-align: center;
+}
+
+.features-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.features-subheading {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: #7f8c8d;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  flex: 1;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card img {
+  width: 80px;
+  margin-bottom: 1.5rem;
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  color: #34495e;
+  margin-bottom: 1rem;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: #7f8c8d;
+  line-height: 1.6;
+}
+
+.cta {
+  padding: 4rem 5rem;
+  background-color: #ff6200;
+  color: #fff;
+  text-align: center;
+}
+
+.cta-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.cta-subheading {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.cta-button {
+  font-size: 1.25rem;
+  background-color: #ffbb33;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ff9c00;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .features,
+  .testimonials,
+  .cta {
+    padding: 3rem 2rem;
+  }
+
+  .feature-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-card {
+    margin-bottom: 1.5rem;
+  }
+
+  .testimonial-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial-card {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .features-heading {
+    font-size: 2rem;
+  }
+
+  .features-subheading {
+    font-size: 1.1rem;
+  }
+
+  .testimonial-card h3,
+  .feature-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .cta-heading {
+    font-size: 2rem;
+  }
+
+  .cta-subheading {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    font-size: 1.1rem;
+  }
+
+  .testimonial-cards,
+  .feature-cards {
+    flex-direction: column;
+  }
+
+  .cta {
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .features-heading,
+  .testimonials-heading,
+  .cta-heading {
+    font-size: 1.75rem;
+  }
+
+  .features-subheading,
+  .cta-subheading {
+    font-size: 1rem;
+  }
+
+  .feature-card,
+  .testimonial-card {
+    padding: 1.5rem;
+  }
+
+  .cta-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
