@@ -6,28 +6,27 @@ const MainScreen = () => {
     <div className="main-screen">
       <section className="full-width-image-GrupoGalvez">
         <img
-          src="src/images/GrupoGalvez.jpg"
-          alt=""
+          src=""
+          alt="Imagen de portada"
           className="full-width-image-element"
         />
       </section>
 
       <section className="hero">
         <div className="hero-content">
-          <h1 className="hero-heading">
-            La Mejor Calidad en Producción de Papas
-          </h1>
+          <h1 className="hero-heading">La Mejor Calidad en Energía Solar</h1>
           <p className="hero-subheading">
-            Nos dedicamos a cultivar y ofrecer las mejores papas frescas y
-            procesadas, garantizando calidad y sabor en cada producto. ¡Confía
-            en nosotros para llevar lo mejor a tu mesa!
+            Nos especializamos en ofrecer soluciones de energía solar de alta
+            calidad, garantizando eficiencia y sustentabilidad en cada
+            instalación. ¡Confía en nosotros para aprovechar lo mejor del sol y
+            reducir tu huella de carbono!
           </p>
-          <a href="contact" className="cta-button">
+          <a href="contact" className="cta-button-m">
             Contáctanos
           </a>
         </div>
         <div className="hero-image">
-          <img src="src/images/papas.jpg" alt="Producción de Papas" />
+          <img src="" alt="Imagen" />
         </div>
       </section>
 
@@ -37,27 +36,29 @@ const MainScreen = () => {
         </h2>
         <div className="feature-cards">
           <div className="feature-card">
-            <img src="src/images/papas3.jpg" alt="Calidad Superior" />
-            <h3>Calidad Superior</h3>
+            <img src="" alt="Imagen" />
+            <h3>Soluciones Solar de Alta Calidad</h3>
             <p>
-              Producimos papas de la más alta calidad, seleccionadas
-              cuidadosamente para garantizar frescura y sabor.
+              Ofrecemos paneles solares de la más alta calidad, seleccionados y
+              diseñados para garantizar máxima eficiencia y durabilidad.
             </p>
           </div>
           <div className="feature-card">
-            <img src="src/images/papas2.jpg" alt="Variedad de Productos" />
-            <h3>Variedad de Productos</h3>
+            <img src="" alt="Imagen" />
+            <h3>Variedad de Soluciones Solares</h3>
             <p>
-              Ofrecemos una amplia gama de opciones, desde papas frescas hasta
-              productos procesados listos para usar.
+              Ofrecemos una amplia gama de opciones, desde paneles solares y
+              inversores hasta calentadores solares, todos de la mejor calidad
+              para satisfacer tus necesidades energéticas.
             </p>
           </div>
           <div className="feature-card">
-            <img src="src/images/papas1.jpg" alt="Producción Sostenible" />
-            <h3>Producción Sostenible</h3>
+            <img src="" alt="Imagen" />
+            <h3>Energía Solar Sostenible</h3>
             <p>
-              Nos comprometemos con prácticas agrícolas responsables que cuidan
-              del medio ambiente y promueven la sostenibilidad.
+              Nos comprometemos con soluciones energéticas responsables que
+              cuidan el medio ambiente y promueven la sostenibilidad a largo
+              plazo.
             </p>
           </div>
         </div>
@@ -67,7 +68,7 @@ const MainScreen = () => {
         <h2 className="video-heading">Descubre Nuestro Proceso</h2>
         <div className="video-container">
           <video width="100%" height="500px" controls preload="auto">
-            <source src="src/videos/papas.mp4" type="video/mp4" />
+            <source alt="video" src="" type="video/mp4" />
             El buscador no soporta el video.
           </video>
         </div>
@@ -99,15 +100,19 @@ const MainScreen = () => {
         <h2 className="benefits-heading">¿Por Qué Elegirnos?</h2>
         <ul className="benefits-list">
           <li>
-            ✔ Papas de la más alta calidad, frescas y seleccionadas
-            cuidadosamente.
+            ✔ Soluciones solares de la más alta calidad, eficientes y duraderas.
           </li>
           <li>
-            ✔ Proceso de producción eficiente que garantiza entregas puntuales.
+            ✔ Instalación rápida y profesional para garantizar el máximo
+            rendimiento.
           </li>
-          <li>✔ Atención personalizada y soporte dedicado a cada cliente.</li>
           <li>
-            ✔ Compromiso con la sostenibilidad y el cuidado del medio ambiente.
+            ✔ Soporte personalizado y asesoría en todo el proceso de transición
+            energética.
+          </li>
+          <li>
+            ✔ Compromiso con la sostenibilidad y reducción de tu huella de
+            carbono.
           </li>
         </ul>
       </section>
@@ -149,31 +154,32 @@ const MainScreen = () => {
         <h2 className="faq-heading">Preguntas Frecuentes</h2>
         <div className="faq-items">
           <div className="faq-item">
-            <h3>¿De dónde provienen nuestras papas?</h3>
+            <h3>¿De dónde provienen nuestros paneles solares?</h3>
             <p>
-              Nuestras papas son cultivadas en campos seleccionados para
-              garantizar la mejor calidad y sabor.
+              Nuestros paneles solares provienen de fabricantes líderes en la
+              industria, garantizando la mejor calidad y eficiencia.
             </p>
           </div>
           <div className="faq-item">
-            <h3>¿Ofrecen opciones personalizadas para empresas?</h3>
+            <h3>¿Ofrecen soluciones personalizadas para empresas?</h3>
             <p>
-              Sí, trabajamos con negocios para ofrecer soluciones personalizadas
-              según sus necesidades.
+              Sí, trabajamos con empresas para ofrecer instalaciones solares
+              personalizadas que se ajusten a sus necesidades energéticas.
             </p>
           </div>
           <div className="faq-item">
-            <h3>¿Cómo puedo realizar un pedido?</h3>
+            <h3>¿Cómo puedo solicitar una instalación solar?</h3>
             <p>
               Es fácil, solo tienes que contactarnos a través del botón
-              "Contacto" y nuestro equipo te ayudará.
+              "Contacto" y nuestro equipo te asesorará en todo el proceso.
             </p>
           </div>
           <div className="faq-item">
-            <h3>¿Cuál es la diferencia entre sus productos?</h3>
+            <h3>¿Cuál es la diferencia entre sus soluciones solares?</h3>
             <p>
-              Ofrecemos diferentes variedades y presentaciones de papas, desde
-              papas frescas hasta productos listos para cocinar.
+              Ofrecemos una variedad de paneles solares, inversores y
+              calentadores solares, adaptados a tus necesidades de eficiencia y
+              ahorro energético.
             </p>
           </div>
         </div>

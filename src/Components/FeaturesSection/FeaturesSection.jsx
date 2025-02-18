@@ -10,27 +10,29 @@ const FeaturesSection = () => {
         </h2>
         <div className="feature-cards">
           <div className="feature-card">
-            <img src="src/images/papas3.jpg" alt="Calidad Superior" />
-            <h3>Calidad Superior</h3>
+            <img src="" alt="Imagen" />
+            <h3>Soluciones Solar de Alta Calidad</h3>
             <p>
-              Producimos papas de la más alta calidad, seleccionadas
-              cuidadosamente para garantizar frescura y sabor.
+              Ofrecemos paneles solares de la más alta calidad, seleccionados y
+              diseñados para garantizar máxima eficiencia y durabilidad.
             </p>
           </div>
           <div className="feature-card">
-            <img src="src/images/papas2.jpg" alt="Variedad de Productos" />
-            <h3>Variedad de Productos</h3>
+            <img src="" alt="Imagen" />
+            <h3>Variedad de Soluciones Solares</h3>
             <p>
-              Ofrecemos una amplia gama de opciones, desde papas frescas hasta
-              productos procesados listos para usar.
+              Ofrecemos una amplia gama de opciones, desde paneles solares y
+              inversores hasta calentadores solares, todos de la mejor calidad
+              para satisfacer tus necesidades energéticas.
             </p>
           </div>
           <div className="feature-card">
-            <img src="src/images/papas1.jpg" alt="Producción Sostenible" />
-            <h3>Producción Sostenible</h3>
+            <img src="" alt="Imagen" />
+            <h3>Energía Solar Sostenible</h3>
             <p>
-              Nos comprometemos con prácticas agrícolas responsables que cuidan
-              del medio ambiente y promueven la sostenibilidad.
+              Nos comprometemos con soluciones energéticas responsables que
+              cuidan el medio ambiente y promueven la sostenibilidad a largo
+              plazo.
             </p>
           </div>
         </div>
@@ -42,7 +44,7 @@ const FeaturesSection = () => {
           Únete a miles de clientes satisfechos y lleva tu negocio al siguiente
           nivel.
         </p>
-        <a href="/Contact" className="cta-button">
+        <a href="/Contact" className="cta-button-f">
           Contáctanos Ahora
         </a>
       </section>

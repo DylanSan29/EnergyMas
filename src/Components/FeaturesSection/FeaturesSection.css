@@ -59,7 +59,7 @@
 
 .cta {
   padding: 4rem 5rem;
-  background-color: #ff6200;
+  background-color: #2C3E50;
   color: #fff;
   text-align: center;
 }
@@ -77,9 +77,9 @@
   color: #fff;
 }
 
-.cta-button {
+.cta-button-f {
   font-size: 1.25rem;
-  background-color: #ffbb33;
+  background-color: #1565c0;
   color: #fff;
   padding: 12px 24px;
   border-radius: 5px;
@@ -87,8 +87,8 @@
   transition: background-color 0.3s ease;
 }
 
-.cta-button:hover {
-  background-color: #ff9c00;
+.cta-button-f:hover {
+  background-color: #2196f3;
 }
 
 /* Responsive Styles */

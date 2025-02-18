@@ -26,8 +26,8 @@ const Navbar = () => {
       <div className="navbar-logo">
         <a href="/">
           <img
-            src="src/images/logoGalvez.jpeg"
-            alt=""
+            src=""
+            alt="logo"
             className="navbar-logo-img"
           />
         </a>

@@ -4,25 +4,25 @@ import './OurProducts.css'; // Nuevos estilos
 const products = [
   { 
     id: 1, 
-    name: "1 tonelada de papas", 
-    description: "La solución ideal para grandes distribuidores o empresas del sector alimenticio.", 
+    name: "Paneles solares", 
+    description: "La solución perfecta para empresas que buscan eficiencia energética, reducción de costos y un compromiso con la sostenibilidad, adaptada a las necesidades de tu negocio.", 
     image: "https://via.placeholder.com/400", 
     link: "#" 
   },
   { 
     id: 2, 
-    name: "100 kg de papas", 
-    description: "Perfectas para restaurantes, supermercados o negocios medianos.", 
+    name: "Calentadores solares", 
+    description: "La solución ideal para empresas y hogares que buscan eficiencia energética y un ahorro significativo en costos de calefacción, aprovechando la energía solar de manera sostenible.", 
     image: "https://via.placeholder.com/400", 
     link: "#" 
-  },
+  },  
   { 
     id: 3, 
-    name: "10 kg de papas", 
-    description: "Ideal para familias, pequeños comercios o eventos especiales.", 
+    name: "Paquete de 12 paneles solares", 
+    description: "Perfecto para hogares medianos o pequeñas empresas que buscan una solución energética eficiente, con un alto rendimiento y ahorro a largo plazo.", 
     image: "https://via.placeholder.com/400", 
     link: "#" 
-  },
+  },  
 ];
 
 
@@ -38,7 +38,7 @@ const OurProducts = () => {
             <div className="product-info">
               <h3 className="product-name">{product.name}</h3>
               <p className="product-description">{product.description}</p>
-              <a href={product.link} className="cta-button">Ver Detalles</a>
+              {/* <a href={product.link} className="cta-button">Ver Detalles</a> */}
             </div>
           </div>
         ))}
